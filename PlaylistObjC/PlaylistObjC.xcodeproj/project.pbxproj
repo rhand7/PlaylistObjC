@@ -12,6 +12,8 @@
 		2A76CCD91EB7944C006D0182 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A76CCD71EB7944C006D0182 /* Main.storyboard */; };
 		2A76CCDB1EB7944C006D0182 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A76CCDA1EB7944C006D0182 /* Assets.xcassets */; };
 		2A76CCDE1EB7944C006D0182 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A76CCDC1EB7944C006D0182 /* LaunchScreen.storyboard */; };
+		2A76CCEB1EB79922006D0182 /* DMNListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A76CCEA1EB79922006D0182 /* DMNListViewController.m */; };
+		2A76CCEE1EB7993A006D0182 /* DMNPlaylistDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A76CCED1EB7993A006D0182 /* DMNPlaylistDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,10 @@
 		2A76CCDA1EB7944C006D0182 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A76CCDD1EB7944C006D0182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A76CCDF1EB7944C006D0182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A76CCE91EB79922006D0182 /* DMNListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNListViewController.h; sourceTree = "<group>"; };
+		2A76CCEA1EB79922006D0182 /* DMNListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNListViewController.m; sourceTree = "<group>"; };
+		2A76CCEC1EB7993A006D0182 /* DMNPlaylistDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNPlaylistDetailViewController.h; sourceTree = "<group>"; };
+		2A76CCED1EB7993A006D0182 /* DMNPlaylistDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNPlaylistDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,10 @@
 		2A76CCE51EB794BF006D0182 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				2A76CCE91EB79922006D0182 /* DMNListViewController.h */,
+				2A76CCEA1EB79922006D0182 /* DMNListViewController.m */,
+				2A76CCEC1EB7993A006D0182 /* DMNPlaylistDetailViewController.h */,
+				2A76CCED1EB7993A006D0182 /* DMNPlaylistDetailViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -179,7 +189,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A76CCD31EB7944C006D0182 /* AppDelegate.m in Sources */,
+				2A76CCEE1EB7993A006D0182 /* DMNPlaylistDetailViewController.m in Sources */,
 				2A76CCD01EB7944C006D0182 /* main.m in Sources */,
+				2A76CCEB1EB79922006D0182 /* DMNListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
