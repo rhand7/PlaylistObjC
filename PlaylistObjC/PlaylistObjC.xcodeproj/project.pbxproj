@@ -16,6 +16,7 @@
 		2A76CCEE1EB7993A006D0182 /* DMNPlaylistDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A76CCED1EB7993A006D0182 /* DMNPlaylistDetailViewController.m */; };
 		2A76CCF11EB7A3E2006D0182 /* DMNPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A76CCF01EB7A3E2006D0182 /* DMNPlaylist.m */; };
 		2A76CCF41EB7A695006D0182 /* DMNSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A76CCF31EB7A695006D0182 /* DMNSong.m */; };
+		2A76CCF71EB7AE8A006D0182 /* DMNPlaylistController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A76CCF61EB7AE8A006D0182 /* DMNPlaylistController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		2A76CCF01EB7A3E2006D0182 /* DMNPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNPlaylist.m; sourceTree = "<group>"; };
 		2A76CCF21EB7A695006D0182 /* DMNSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNSong.h; sourceTree = "<group>"; };
 		2A76CCF31EB7A695006D0182 /* DMNSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNSong.m; sourceTree = "<group>"; };
+		2A76CCF51EB7AE8A006D0182 /* DMNPlaylistController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNPlaylistController.h; sourceTree = "<group>"; };
+		2A76CCF61EB7AE8A006D0182 /* DMNPlaylistController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNPlaylistController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		2A76CCE61EB794C9006D0182 /* ModelControllers */ = {
 			isa = PBXGroup;
 			children = (
+				2A76CCF51EB7AE8A006D0182 /* DMNPlaylistController.h */,
+				2A76CCF61EB7AE8A006D0182 /* DMNPlaylistController.m */,
 			);
 			name = ModelControllers;
 			sourceTree = "<group>";
@@ -204,6 +209,7 @@
 				2A76CCEE1EB7993A006D0182 /* DMNPlaylistDetailViewController.m in Sources */,
 				2A76CCD01EB7944C006D0182 /* main.m in Sources */,
 				2A76CCEB1EB79922006D0182 /* DMNListViewController.m in Sources */,
+				2A76CCF71EB7AE8A006D0182 /* DMNPlaylistController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

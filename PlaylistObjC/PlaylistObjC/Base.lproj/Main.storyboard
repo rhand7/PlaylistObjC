@@ -69,10 +69,14 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="gbX-46-V3i" kind="show" id="xi5-e9-Fvm"/>
+                                            <segue destination="gbX-46-V3i" kind="show" identifier="toDetailView" id="xi5-e9-Fvm"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="6O1-Yk-DFc" id="dcT-MF-4Of"/>
+                                    <outlet property="delegate" destination="6O1-Yk-DFc" id="fST-mS-KX1"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -172,6 +176,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="gbX-46-V3i" id="Su5-sC-cgg"/>
+                                    <outlet property="delegate" destination="gbX-46-V3i" id="5ei-ua-HXq"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
