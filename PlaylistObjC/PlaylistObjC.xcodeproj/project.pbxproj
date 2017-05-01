@@ -14,6 +14,8 @@
 		2A76CCDE1EB7944C006D0182 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A76CCDC1EB7944C006D0182 /* LaunchScreen.storyboard */; };
 		2A76CCEB1EB79922006D0182 /* DMNListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A76CCEA1EB79922006D0182 /* DMNListViewController.m */; };
 		2A76CCEE1EB7993A006D0182 /* DMNPlaylistDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A76CCED1EB7993A006D0182 /* DMNPlaylistDetailViewController.m */; };
+		2A76CCF11EB7A3E2006D0182 /* DMNPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A76CCF01EB7A3E2006D0182 /* DMNPlaylist.m */; };
+		2A76CCF41EB7A695006D0182 /* DMNSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A76CCF31EB7A695006D0182 /* DMNSong.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		2A76CCEA1EB79922006D0182 /* DMNListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNListViewController.m; sourceTree = "<group>"; };
 		2A76CCEC1EB7993A006D0182 /* DMNPlaylistDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNPlaylistDetailViewController.h; sourceTree = "<group>"; };
 		2A76CCED1EB7993A006D0182 /* DMNPlaylistDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNPlaylistDetailViewController.m; sourceTree = "<group>"; };
+		2A76CCEF1EB7A3E2006D0182 /* DMNPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNPlaylist.h; sourceTree = "<group>"; };
+		2A76CCF01EB7A3E2006D0182 /* DMNPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNPlaylist.m; sourceTree = "<group>"; };
+		2A76CCF21EB7A695006D0182 /* DMNSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNSong.h; sourceTree = "<group>"; };
+		2A76CCF31EB7A695006D0182 /* DMNSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNSong.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,10 @@
 		2A76CCE71EB794D1006D0182 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2A76CCEF1EB7A3E2006D0182 /* DMNPlaylist.h */,
+				2A76CCF01EB7A3E2006D0182 /* DMNPlaylist.m */,
+				2A76CCF21EB7A695006D0182 /* DMNSong.h */,
+				2A76CCF31EB7A695006D0182 /* DMNSong.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -188,6 +198,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A76CCF41EB7A695006D0182 /* DMNSong.m in Sources */,
+				2A76CCF11EB7A3E2006D0182 /* DMNPlaylist.m in Sources */,
 				2A76CCD31EB7944C006D0182 /* AppDelegate.m in Sources */,
 				2A76CCEE1EB7993A006D0182 /* DMNPlaylistDetailViewController.m in Sources */,
 				2A76CCD01EB7944C006D0182 /* main.m in Sources */,
